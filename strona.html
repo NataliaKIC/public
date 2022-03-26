@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptatum distinctio quis reiciendis assumenda officia, alias nesciunt atque labore, deserunt nobis delectus, amet officiis earum! Aperiam voluptatem optio iste minima.</p>
-</body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- <p class="background">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptatum
+      distinctio quis reiciendis assumenda officia, alias nesciunt atque labore,
+      deserunt nobis delectus, amet officiis earum! Aperiam voluptatem optio
+      iste minima.
+    </p> -->
+    <!-- <h3 id="imie"></h3> -->
+    <input type="text" id="input_imie" />
+    <button onclick="pobierz_dane()">Pobierz imie</button>
+    <h3 id="imie">Cześć</h3>
+    <div id="divek"></div>
+    <script>
+      pobierz_dane = () => {
+        const imie = document.getElementById("input_imie").value;
+        console.log(imie);
+        let imie_html = document.getElementById("imie");
+        console.log(imie_html);
+        imie_html.innerText += " " + imie;
+      };
+
+      //   let a = 3;
+      //   console.log(a);
+      //   a = a - 1;
+      //   console.log(a);
+      //   a -= 1;
+      //   console.log(a);
+      //   a--;
+      //   console.log(a);
+
+      for (let i = 0; i < 10; i++) {}
+
+      //   let div = document.getElementById("divek");
+      //   for (let i = 0; i < 10; i++) {
+      //     div.innerHTML += i + 1 + "<br>";
+      //   }
+      //   function test() {
+      //     alert("funkcja test");
+      //   }
+      //   test_strzalkowa = () => {
+      //     alert("funkcja_strzalkowa_test");
+      //   };
+      //   test();
+      //   test_strzalkowa();
+
+      //   window.onload = () => {
+      //     let imie = document.getElementById("imie");
+      //     console.log(imie);
+      //     const imie_uzytkownika = prompt("Podaj swoje imie");
+      //     console.log(imie_uzytkownika);
+      //     imie.innerText = imie_uzytkownika + " jestem z inner texta";
+      //   };
+    </script>
+  </body>
 </html>
