@@ -235,7 +235,7 @@ ul {
   margin-top: 10px;
 }
 .h3_spec::after {
-  content: url("images/sspecifier.png");
+  content: url("../../images_content/sspecifier.png");
   position: absolute;
   right: -20px;
 }
@@ -246,19 +246,19 @@ ul {
 }
 
 .h3_build::after {
-  content: url("images/sbuilder.png");
+  content: url("../../images_content/sbuilder.png");
   position: absolute;
   right: -20px;
 }
 
 .h3_spec::after {
-  content: url("images/sspecifier.png");
+  content: url("../../images_content/sspecifier.png");
   position: absolute;
   right: -20px;
 }
 
 .h3_precast::after {
-  content: url("images/arrow.png");
+  content: url("../../images_content/arrow.png");
   position: absolute;
   right: -20px;
 }
@@ -278,35 +278,33 @@ ul {
 }
 
 .slider1 {
-  background-image: url("images/slider1.png");
+  background-image: url("../../images_content/slider1.png");
   height: 300px;
   padding-left: 20%;
   padding-top: 20px;
 }
 .slider2 {
-  background-image: url("images/slider2.png");
+  background-image: url("../../images_content/slider2.png");
   height: 300px;
   padding-left: 20%;
   padding-top: 20px;
 }
 .slider3 {
-  background-image: url("images/slider3.png");
+  background-image: url("../../images_content/slider3.png");
   height: 300px;
   padding-left: 20%;
   padding-top: 20px;
 }
-.slider_text
-{
+.slider_text {
   width: 450px;
   background-color: white;
   opacity: 0.2;
   padding: 10px;
 }
-.slider_button
-{
+.slider_button {
   background-color: #35b38e;
-  color:white;
-  border:none;
+  color: white;
+  border: none;
   padding: 10px;
   margin-top: 20px;
   text-transform: uppercase;
@@ -314,7 +312,9 @@ ul {
   width: 170px;
 }
 
-.slider_h3
-{
+.slider_h3 {
   color: white;
+}
+.menu_a {
+  color: black !important;
 }

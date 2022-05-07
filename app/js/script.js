@@ -1,0 +1,11 @@
+document.getElementById("search").addEventListener("click", () => {
+  el = document.getElementById("searchinput");
+  if (el.style.display == "flex") {
+    document.getElementById("searchinput").style.display = "none";
+    document.getElementById("search").src = "../images_content/search.png";
+  } else {
+    console.log(el.style.display);
+    document.getElementById("searchinput").style.display = "flex";
+    document.getElementById("search").src = "../images_content/close.png";
+  }
+});
