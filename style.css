@@ -1,226 +1,290 @@
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;}
-
-
-.menu-item 
-{ 
-display: flex;
-align-items: center;
-margin: 10px;
-
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-h3
-{
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+h3 {
   font-weight: bold !important ;
   font-size: 20px !important;
 }
-.linkedin
-{
+.linkedin {
   margin-left: 40px;
 }
 
-.twitter
-{
+.twitter {
   margin: 10px 2px;
 }
 
-.header-content
-{
-display: flex;
-justify-content: center;
-}
-
-a
-{
-text-decoration: none;
-color:black !important;
-}
-.menu-item-right
-{
-  margin-left: 15px;
-}
-.set_top
-{
-top: -10px;
-}
-header { background:white ; width:100%; height: 100px; }
-section { background-image: url('slider1.png'); width:100%; height: 350px;  }
-menu { background: orange; width:100%; height: 50px;}
-footer { background: white; width:100%; height: 190px; clear: both; }
-p { font: 14px Arial, sans-serif; color: black; text-align: center; }
-
-
-
-
-  ul, ul li {
-    display: block;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  ul {
-    clear: left;
-    float: left;
-    list-style: none;
-    margin-top: 5px;
-    padding: 0;
-    position: relative;
-    left: 50%;
-    text-align: center;
-  }
-  
-  ul li {
-    display: block;
-   float: left;
-   list-style: none;
-   margin-top: 5px;
-   padding: 0;
-   position: relative;
-   right: 50%;
-  }
-  
-  ul a:link, ul a:visited {
-    text-decoration: none;
-    display: block;
-    font-weight: bold;
-    color: white;
-    padding: 5px 15px 5px 5px;
-    margin-left: 10px;
-  }
-  
-  .searchbar
-  {
-    margin-left: 28px;
-  }
-
-  .search
-  {
-    background-color: brown;
-    display: none;
-    margin-bottom: 10px;
-    width: 100%;
-    justify-content: space-around;
-  }
-  .wyszukiwarka
-  {
-    background-color: brown;
-    border: 1px solid brown;
-  }
-  .wyszukiwarka:focus-visible
-  {
-    outline: none;
-  }
-
-  .wyszukiwarka::placeholder
-  {
-    color: white;
-  }
-  ul
-  {
-    margin-bottom: 0 !important;
-
-  }
-.naglowek
-{
-  text-align: center;
-  color:blue;
-  font-size: 20px;
-  font-family: fantasy;
-  margin-top: 30px;
-  letter-spacing: 3px;
-
-}
-
-.footer_row
-{
+.header-content {
   display: flex;
   justify-content: center;
 }
 
-.footer_item
-{
+a {
+  text-decoration: none;
+  color: black !important;
+}
+.menu-item-right {
+  margin-left: 15px;
+}
+.set_top {
+  top: -10px;
+}
+header {
+  background: white;
+  width: 100%;
+  height: 100px;
+}
+section {
+  background-image: url("slider1.png");
+  width: 100%;
+  height: 350px;
+}
+menu {
+  background: orange;
+  width: 100%;
+  height: 50px;
+}
+footer {
+  background: white;
+  width: 100%;
+  height: 190px;
+  clear: both;
+}
+p {
+  font: 14px Arial, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+ul,
+ul li {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  clear: left;
+  float: left;
+  list-style: none;
+  margin-top: 5px;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  text-align: center;
+}
+
+ul li {
+  display: block;
+  float: left;
+  list-style: none;
+  margin-top: 5px;
+  padding: 0;
+  position: relative;
+  right: 50%;
+}
+
+ul a:link,
+ul a:visited {
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+  color: white;
+  padding: 5px 15px 5px 5px;
+  margin-left: 10px;
+}
+
+.searchbar {
+  margin-left: 28px;
+}
+
+.search {
+  background-color: brown;
+  display: none;
+  margin-bottom: 10px;
+  width: 100%;
+  justify-content: space-around;
+}
+.wyszukiwarka {
+  background-color: brown;
+  border: 1px solid brown;
+}
+.wyszukiwarka:focus-visible {
+  outline: none;
+}
+
+.wyszukiwarka::placeholder {
+  color: white;
+}
+ul {
+  margin-bottom: 0 !important;
+}
+.naglowek {
+  text-align: center;
+  color: blue;
+  font-size: 20px;
+  font-family: fantasy;
+  margin-top: 30px;
+  letter-spacing: 3px;
+}
+
+.footer_row {
+  display: flex;
+  justify-content: center;
+}
+
+.footer_item {
   margin: 20px;
   text-align: center;
 }
-.h3_spec
-{  
+.h3_spec {
   position: relative;
   margin-top: 10px;
 }
-.h3_spec::after 
-{
+.h3_spec::after {
   content: url("images/sspecifier.png");
   position: absolute;
   right: -20px;
 }
 
-.h3_build
-{  
+.h3_build {
   position: relative;
   margin-top: 10px;
 }
 
-.h3_build::after 
-{
+.h3_build::after {
   content: url("images/sbuilder.png");
   position: absolute;
   right: -20px;
 }
 
-.h3_spec::after 
-{
+.h3_spec::after {
   content: url("images/sspecifier.png");
   position: absolute;
   right: -20px;
 }
 
-.h3_precast::after 
-{
+.h3_precast::after {
   content: url("images/arrow.png");
   position: absolute;
   right: -20px;
 }
 
-.h3_precast
-{  
+.h3_precast {
   position: relative;
   margin-top: 10px;
 }
 
-.foto_slider
-{
+.foto_slider {
   position: relative;
-
 }
 
-.slider_content
-{
+.slider_content {
   position: absolute;
   z-index: 10;
 }
 
-.slider1
-{
+.slider1 {
   background-image: url("images/slider1.png");
+  height: 300px;
+}
+.slider2 {
+  background-image: url("images/slider2.png");
+  height: 300px;
+}
+.slider3 {
+  background-image: url("images/slider3.png");
   height: 300px;
 }
