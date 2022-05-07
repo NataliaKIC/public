@@ -1,6 +1,6 @@
 document.getElementById("search").addEventListener("click", () => {
     el = document.getElementById("searchinput");
-    if (el.style.display == "block") {
+    if (el.style.display == "flex") {
       document.getElementById("searchinput").style.display = "none";
       document.getElementById("search").src = "images/search.png";
     } else {
